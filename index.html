@@ -3,12 +3,42 @@
 <head>
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/firstGraph.js"></script>
+	<!--Material Design StyleSheets -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Bootstrap StyleSheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<!-- Bootstrap Material Design -->
+<link href="dist/css/bootstrap-material-design.css" rel="stylesheet">
+<link href="dist/css/ripples.min.css" rel="stylesheet">
+<link href="./styles.css" rel="stylesheet">
+<script type="text/javascript" src="js/firstGraph.js"></script>
+<script type="text/javascript" src="js/secondGraph.js"></script>
 </head>
 <header><title>Ufo Sightings</title></header>
 <body>
-Hello world
-
-<div id="curve_chart" style="width: 900px; height: 500px"></div>
+	<div class="col-sm-12">
+		<div class="panel panel-default">
+			<div id="titleBox" class="panel-body">
+				<p> UFO DATA</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-3">
+        <div class="panel panel-default">
+            <div id="textBox" class="panel-body">
+              <p> Data was collected from UFO SITE. At first glance, it appears we've spent the last
+              	20 years in the midst of an inter-galactic takeover. But could the data be describing something else? Something much more terrestrial?</p>
+            </div>
+            <div class="center">
+              <input class="btn btn-raised btn-primary" type ="submit" id="button" value="Next" name="Take Survey"/>
+          </div>
+        </div>
+</div>
+	<div class="col-sm-6">
+		<div id="curve_chart" style="width: 900px; height: 500px"></div>
+	</div>
 </body>
+<script type="text/javascript" src="js/navigation.js"></script>
 </html>

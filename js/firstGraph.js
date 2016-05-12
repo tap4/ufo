@@ -1,6 +1,6 @@
 google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
-
+var chart;
       function drawChart() { 
         var data = google.visualization.arrayToDataTable([
           ['Year', 'Sightings'],
@@ -53,7 +53,7 @@ google.charts.load('current', {'packages':['corechart']});
           legend: { position: 'bottom' }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        chart = new google.visualization.AreaChart(document.getElementById('curve_chart'));
 
         chart.draw(data, options);
       }
