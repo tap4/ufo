@@ -8,7 +8,7 @@ body {
   font-family: Arial; }
 
 .panel.panel-default {
-  background: rgba(255, 195, 77, 0.5);
+  background: rgba(72, 171, 29, 0.8);
   border-color: purple; }
 
 
@@ -19,6 +19,13 @@ body {
 
 #troyIntroText{
   font-size: 125%;
+}
+
+#titleBoxDiv{
+	padding: 10px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
 }
 
 .center{
