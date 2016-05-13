@@ -2,7 +2,8 @@ var stage=1;
 var newText = [
 "1111",
 "2222",
-"With closer consideration given to the birth of the internet, we see that there are 2 distinct patterns",
+"With closer consideration given to the birth of the internet, we see that there are 2 distinct patterns."+
+" Is the data more accurately predicting internet access, rather than extra-terrestial visits?",
 "Correlation chart; percentage internet access vs sightings reported",
 "3 point correlation: xfiles popularity, percentage internet access, sightings"];
 
