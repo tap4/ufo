@@ -8,8 +8,10 @@ body {
   font-family: Arial; }
 
 .panel.panel-default {
-  background: rgba(72, 171, 29, 0.8);
-  border-color: purple; }
+  background: AliceBlue;
+  border-color: khaki;
+  border-radius: 5px;
+  border-width: 5px; }
 
 
 .panel.panel-default.interior{
@@ -17,15 +19,25 @@ body {
   font-size: 50%;
 }
 
-#troyIntroText{
-  font-size: 125%;
+#textBoxPanel{
+  height: 500px;
+}
+#alienPic{
+    position: absolute;
+    left: 0px;
+    bottom: -50px;
+    z-index: -1;
+}
+
+#textBox{
+  font-size: 20px;
 }
 
 #titleBoxDiv{
 	padding: 10px;
 	text-align: center;
 	font-size: 40px;
-	color: white;
+	color: #3E2CD6;
 }
 
 .center{

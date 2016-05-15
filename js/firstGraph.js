@@ -3,7 +3,7 @@ google.charts.load('current', {'packages':['corechart']});
 var chart;
       function drawChart() { 
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sightings'],
+          ['Year', 'Sightings Reported'],
           ['1975',  372],
           ['1976',  335],
           ['1977', 311],
@@ -48,9 +48,12 @@ var chart;
         ]);
 
         var options = {
-          title: 'UFO Sightings',
+          title: 'UFO Sightings Reported by Year',
+          titleTextStyle: {fontSize: 20},
           curveType: 'function',
-          legend: { position: 'bottom' }
+          series: { 0: {color: 'khaki',areaOpacity: 0.5}},
+          backgroundColor: { stroke: 'khaki', rx: 10, ry: 10, strokeWidth: 10, fill: 'AliceBlue' },
+          legend: { position: 'bottom', textStyle:{fontSize: 15} }
         };
 
         chart = new google.visualization.AreaChart(document.getElementById('chart'));
