@@ -53,7 +53,7 @@ var chart;
           legend: { position: 'bottom' }
         };
 
-        chart = new google.visualization.AreaChart(document.getElementById('curve_chart'));
+        chart = new google.visualization.AreaChart(document.getElementById('chart'));
 
         chart.draw(data, options);
       }

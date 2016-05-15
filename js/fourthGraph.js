@@ -1,4 +1,4 @@
-function draw3rdChart() {
+function draw4thChart() {
 
            var data = google.visualization.arrayToDataTable([
           ['Internet Access', 'Sightings'],
@@ -15,6 +15,14 @@ function draw3rdChart() {
 
         var options = {
           title: 'Internet Access vs. UFO Sightings Reported',
+          trendlines: {
+                  0: {
+                  type: 'linear',
+                  color: 'green',
+                  lineWidth: 3,
+                  opacity: 0.3,
+                  showR2: true,
+                  visibleInLegend: true}},
           hAxis: {title: '% of US Households with Internet Access', minValue: 0, maxValue: 100},
           vAxis: {title: 'UFO Sightings Reported', minValue: 0, maxValue: 15},
           legend: 'none'
