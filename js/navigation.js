@@ -15,8 +15,36 @@ document.getElementById("button").addEventListener("click", function(){
 function updatePage(stage){
 	document.getElementById("textBox").innerHTML=newText[stage];
 	chart.clearChart();
-	if (stage==2) {draw2ndChart();}
-	if (stage==3) {draw3rdChart();}
-	if (stage==4) {draw4thChart();}
-	if (stage==5) {draw5thChart();}
+	if (stage==2) {
+		draw2ndChart();
+		$('#alienPic2').animate({
+			bottom: "+=100"},1000,function()
+			{
+			//animation complete
+			});
+		}
+	if (stage==3) {
+		draw3rdChart();
+		$('#alienPic').animate({
+			bottom: "+=350"},1000,function()
+			{
+			//animation complete
+			});
+	}
+	if (stage==4) {
+		draw4thChart();
+		$('#alienPic2').animate({
+			bottom: "+=100"},1000,function()
+			{
+			//animation complete
+			});
+	}
+	if (stage==5) {
+		draw5thChart();
+		$('#alienPic2').animate({
+			bottom: "+=330"},1000,function()
+			{
+			//animation complete
+			});
+	}
 }
