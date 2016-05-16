@@ -2,7 +2,7 @@
 function draw2ndChart() {
 
           var data = google.visualization.arrayToDataTable([
-          ['Year', 'Pre-Internet', 'Post-Internet'],
+          ['Year', 'Pre-Internet', 'Internet'],
           ['1975',  372, null],
           ['1976',  335, null],
           ['1977', 311, null],
@@ -50,8 +50,10 @@ function draw2ndChart() {
         
 
         var options = {
-          title: 'UFO Sightings',
+          title: 'UFO Sightings By Year',
+          titleTextStyle: {fontSize: 20},
           curveType: 'function',
+          backgroundColor: { stroke: 'khaki', rx: 10, ry: 10, strokeWidth: 10, fill: 'AliceBlue' },
           legend: { position: 'bottom' }
         };
 
