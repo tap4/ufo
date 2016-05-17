@@ -53,7 +53,7 @@ function updatePage(stage){
 			//animation complete
 			});
 		$('#alien_orange').animate({
-			bottom: "+=350"},1000,function()
+			bottom: "+=350"},500,function()
 			{
 			//animation complete
 			});
