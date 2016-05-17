@@ -43,6 +43,21 @@ body {
     z-index: -1;
 }
 
+#alien_orange{
+    position: absolute;
+    left: 200px;
+    bottom: -404px;
+    z-index: -1;
+
+}
+
+#alien_pink{
+    position: absolute;
+    right: -200px;
+    bottom: -404px;
+    z-index: -1;
+}
+
 #referenceText{
   text-align: center;
 }
