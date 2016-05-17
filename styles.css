@@ -22,6 +22,13 @@ body {
 #textBoxPanel{
   height: 500px;
 }
+
+#button{
+  position: absolute;
+  left: 45%;
+  bottom: 35px;
+}
+
 #alienPic{
     position: absolute;
     left: 0px;
@@ -42,6 +49,9 @@ body {
 
 #textBox{
   font-size: 17px;
+  height: 100%;
+  vertical-align: center;
+
 }
 
 #titleBoxDiv{
@@ -49,10 +59,4 @@ body {
 	text-align: center;
 	font-size: 40px;
 	color: #3E2CD6;
-}
-
-.center{
-	margin: auto;
-	width: 20%;
-	padding: 5px;
 }

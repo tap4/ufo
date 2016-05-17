@@ -15,6 +15,8 @@ function draw4thChart() {
 
         var options = {
           title: 'Internet Access vs. UFO Sightings Reported',
+          titleTextStyle: {fontSize: 20},
+          backgroundColor: { stroke: 'khaki', rx: 10, ry: 10, strokeWidth: 10, fill: 'AliceBlue' },
           trendlines: {
                   0: {
                   type: 'linear',
@@ -24,6 +26,8 @@ function draw4thChart() {
                   showR2: true,
                   visibleInLegend: true}},
           hAxis: {title: '% of US Households with Internet Access', minValue: 0, maxValue: 100},
+          titleTextStyle: {fontSize: 20},
+                  backgroundColor: { stroke: 'khaki', rx: 10, ry: 10, strokeWidth: 10, fill: 'AliceBlue' },
           vAxis: {title: 'UFO Sightings Reported', minValue: 0, maxValue: 15},
           legend: 'none'
         };

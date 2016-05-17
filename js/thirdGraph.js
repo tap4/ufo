@@ -15,6 +15,8 @@ function draw3rdChart() {
 
         var options = {
           title: 'Internet Access vs. UFO Sightings Reported',
+          titleTextStyle: {fontSize: 20},
+          backgroundColor: { stroke: 'khaki', rx: 10, ry: 10, strokeWidth: 10, fill: 'AliceBlue' },
           hAxis: {title: '% of US Households with Internet Access', minValue: 0, maxValue: 100},
           vAxis: {title: 'UFO Sightings Reported', minValue: 0, maxValue: 15},
           legend: 'none'

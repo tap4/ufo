@@ -139,6 +139,8 @@
       var options = {
         title: 'Correlation between internet access, ufo sightings ' +
                'and the broadcast of new X-Files episodes',
+        titleTextStyle: {fontSize: 20},
+        backgroundColor: { stroke: 'khaki', rx: 10, ry: 10, strokeWidth: 10, fill: 'AliceBlue' },
         hAxis: {title: 'Internet Access (% of US Households)'},
         series: {'yes': {color: 'green'},
                   'no': {color: 'red'}},
