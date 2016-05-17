@@ -47,16 +47,14 @@ function updatePage(stage){
 	}
 	if (stage==4) {
 		draw4thChart();
-		$('#alien_pink').animate({
-			bottom: "+=350"},1000,function()
-			{
-			//animation complete
-			});
-		$('#alien_orange').animate({
-			bottom: "+=350"},500,function()
-			{
-			//animation complete
-			});
+
+		$(function () {
+    		$("#alien_pink").animate({
+       		bottom: "+=350"}, { duration: 1000, queue: false });
+    		$("#alien_orange").animate({
+       		bottom: "+=350"
+    		}, { duration: 1000, queue: false });
+		});
 	}
 	if (stage==5) {
 		draw5thChart();
